@@ -56,7 +56,7 @@ do
 		run.RenderStepped:Wait()
 		return true
 	end
-	
+
 	function utility:Find(table, value) -- table.find doesn't work for dictionaries
 		for i, v in  pairs(table) do
 			if v == value then
